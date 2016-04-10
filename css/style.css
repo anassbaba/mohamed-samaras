@@ -31,7 +31,31 @@
     border-top-left-radius: 25px;
     background: #F9F9F9;
 }
-
+.icon-facebook-circled:before{
+	font-family: "fontello";content: '\e809';color: #F9F9F9;
+	font-style: normal;
+	font-size: 30px;
+	text-align: center;
+}
+.icon-twitter-circled:before{
+	font-family: "fontello";content: '\e80a';color: #F9F9F9;
+	font-style: normal;
+	font-size: 30px;
+	text-align: center;
+}
+.icon-skype-outline:before{
+	font-family: "fontello";content: '\e80d';color: #F9F9F9;
+	font-style: normal;
+	font-size: 30px;
+	text-align: center;
+}
+.centerAll{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	color: #2D0838;
+	transform: translate(-50%,-50%);
+}
 
 
 
@@ -44,11 +68,14 @@
 .padding-10{
 	    padding: 10px 55px;
 }
- .nine h4 {
+ .padding-10 h4 {
     text-align: center;
     margin-bottom: 1rem;
     font-size: 22px;
     letter-spacing: 5px;
+}
+.three img {
+    max-width: 60%;
 }
 hr{
     border-top: 2px solid #DF9D9B;
@@ -70,7 +97,8 @@ hr{
 .caption{
 	position: absolute;
 	display: block;
-	background-color: rgba(130, 190, 239, 0.47);
+	background: linear-gradient( 45deg,rgba(0, 188, 212, 0.42), rgba(240, 109, 6, 0.78));
+	background-color: rgba(138, 43, 226, 0.58);
 	bottom: 0;
 	top: 0;
 	height: 99%;
@@ -80,7 +108,7 @@ hr{
 .caption:hover{
 	opacity: 1;
 }
-   span{
+   .posi{
    	position: absolute;
     top: 87%;
     left: 50%;
@@ -88,3 +116,14 @@ hr{
     color: #F9F9F9;
     transform: translate(-50%,-67%);
    	} 
+ footer{
+ 	height: 145px;
+ 	background: linear-gradient( 45deg,rgba(0, 188, 212, 0.42), rgba(240, 109, 6, 0.78));
+ 	text-align: center;
+ 	position: relative;
+ 	background-color: blueviolet;
+ }
+ footer a{
+ 	text-decoration: none;
+ 	color: #2D0838;
+ }
